@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+debug.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist
+/build
+/frontend/build
+/frontend/dist
+/backend/build
+/backend/dist
+
+# Coverage
+coverage/
+frontend/coverage/
+backend/coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# React
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Backend
+backend/node_modules/
+backend/.env
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+
+# Misc
+*.tgz
+*.gz
+*.zip
+
+# Optional: ignore test snapshots
+**/__snapshots__/
+
+# Optional: ignore database files
